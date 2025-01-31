@@ -169,8 +169,33 @@
                       style="background-image: url(./c1-assets/cat-big.png);">
                       </div>
                     </div>
-
-
+                    <!-- Animation -->
+                        <div>
+                          <style>
+                            @keyframes bounce {
+                              0%, 100% {
+                                transform: translateY(0);
+                              }
+                              50% {
+                                transform: translateY(-10px);
+                              }
+                            }
+                          
+                            .cat-animation {
+                              animation: bounce 0.5s infinite ease-in-out;
+                            }
+                          </style>
+                          
+                          <!-- Example Usage -->
+                          <img src="./c1-assets/cute-pet-small.png" alt="Cute Cat" class="cat-animation w-32 mx-auto">
+                          
+                        </div>
+                        <div class="chat chat-start md:ml-52">
+                          <div class="chat-bubble chat-bubble-accent md:ml-80  ml-32 font-adlam md:text-2xl font-normal text-black">
+                            hii,You want me?
+                            <i class="fa-solid fa-cat text-black text-3xl"></i>
+                          </div>
+                        
                      </div>
 
     </header>
@@ -519,7 +544,7 @@
 </main>
 <!-- Get (P)awesome news -->
 
- <div class=" absolute z-10 left-11 drop-shadow box-border ">
+ <div class=" absolute z-10 left-11 md:left-28 drop-shadow box-border ">
 <div class=" md:max-w-screen-xl max-w-80  mx-auto box-border rounded-md bg-[#faf1e9]  my-2 md:my-4">
   <!--  -->
   <div class="  "> 
